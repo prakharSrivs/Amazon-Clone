@@ -1,0 +1,32 @@
+.homeBlock{
+    max-width: 100 vw;
+    margin-top:-175px;
+    position:absolute;
+    z-index: 1;
+}
+.allBlocks{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.rectangleBlocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin:10px ;
+    padding: 10px;
+    max-width:25vw;
+    min-height: 250px;
+    background-color: white;
+}
+.blockImage {
+    object-fit:cover;
+    height:80%;
+    width:95%;
+}
+.src{
+    font-size:10px;
+    text-decoration: none;
+    color:rgb(67, 161, 243);
+}
